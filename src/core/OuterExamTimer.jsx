@@ -34,7 +34,7 @@ const ExamTimer = ({ courseId }) => {
           submitExam={submitExam}
           expireExamAttempt={expireExam}
           pollExamAttempt={pollAttempt}
-          pingAttempt={pingAttempt}
+          pingAttempt={() => {}}
         />
       )}
       {apiErrorMsg && <ExamAPIError />}
